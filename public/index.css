@@ -42,12 +42,6 @@ header{
     max-width: 60%;
     padding:30px;
 }
-.fly{
-    width: 100%;
-    height: auto;
-    display:block;
-    z-index: -1;
-}
 .CTAButtonsCont{
     grid-auto-flow: column;
     grid-auto-flow: row;
@@ -57,7 +51,7 @@ header{
     grid-auto-rows: 1fr;
     grid-gap:1rem;
 }
-.famBtn .teachBtn .homeschoolBtn{
+.famBtn, .teachBtn, .homeschoolBtn {
     background-color: white;
     border-color: white;
     color:#4365d3
