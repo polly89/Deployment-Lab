@@ -37,5 +37,5 @@ header{
     text-align: center;
 }
 .fly{
-    z-index: 0;
+    z-index: -1;
 }
