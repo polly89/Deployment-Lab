@@ -39,8 +39,8 @@ header{
 .intro{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     color: white;
+    display: inline-block;
     text-align: center;
     float: none;
     max-width: 60%;
@@ -53,10 +53,13 @@ header{
     grid-gap:1rem;
 }
 .famBtn, .teachBtn, .homeschoolBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: white;
     border-color: white;
     color:#4365d3;
     height:30px;
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
 }
