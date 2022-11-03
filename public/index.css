@@ -19,7 +19,7 @@ header{
     color: white;
 }
 .menu{
-    width: 55px;
+    width: 100px;
 }
 .hamburger{
     height:35px ;
@@ -37,8 +37,10 @@ header{
     padding: 40px;
 }
 .intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: white;
-    display: inline-block;
     text-align: center;
     float: none;
     max-width: 60%;
@@ -55,6 +57,6 @@ header{
     border-color: white;
     color:#4365d3;
     height:30px;
-    width: 80px;
+    width: 200px;
     border-radius: 10px;
 }
