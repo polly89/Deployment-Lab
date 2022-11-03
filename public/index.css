@@ -33,6 +33,8 @@ header{
 .banner{
     background-image: url(./images/banner_image.jpg);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40px;
 }
 .intro{
     color: white;
@@ -40,19 +42,19 @@ header{
     text-align: center;
     float: none;
     max-width: 60%;
-    padding:30px;
 }
 .CTAButtonsCont{
-    grid-auto-flow: column;
     grid-auto-flow: row;
     margin-top: 10px;
     display: inline-grid;
-    grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-gap:1rem;
 }
 .famBtn, .teachBtn, .homeschoolBtn {
     background-color: white;
     border-color: white;
-    color:#4365d3
+    color:#4365d3;
+    height:30px;
+    width: 80px;
+    border-radius: 10px;
 }
