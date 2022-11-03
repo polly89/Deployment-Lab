@@ -30,6 +30,10 @@ header{
 .cart{
     height:40px;
 }
+.banner{
+    background-image: url(./images/banner_image.jpg);
+    background-repeat: no-repeat;
+}
 .intro{
     color: white;
     display: inline-block;
