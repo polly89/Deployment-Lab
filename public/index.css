@@ -1,8 +1,13 @@
 p{
     font-family: Dosis, sans-serif;
     text-align: center;
+    z-index: 1;
 }
-
+h1{
+    font-size: 34px;
+    padding: 0px 35px;
+    z-index: 1;
+}
 header{
     display: flex;
     align-items: center;
@@ -15,13 +20,22 @@ header{
     background-color: #4365d3;
     color: white;
 }
+.menu{
+    width: 55px;
+}
 .hamburger{
     height:35px ;
-    width: 60px;
 }
 .logo{
     height:38px;
 }
 .cart{
     height:40px;
+}
+.intro{
+    color: white;
+    text-align: center;
+}
+.fly{
+    z-index: 0;
 }
