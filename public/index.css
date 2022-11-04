@@ -21,6 +21,7 @@ header{
 }
 .menu{
     width: 100px;
+    font-family: Dosis, sans-serif;
 }
 .hamburger{
     height:35px ;
@@ -34,7 +35,7 @@ header{
 .banner{
     background-image: url(./images/banner_image.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 80%;
     padding: 40px;
 }
 .intro{
