@@ -5,6 +5,7 @@ p{
 h1{
     font-size: 34px;
     padding: 0px 35px;
+    font-family: Dosis, sans-serif;
 }
 header{
     display: flex;
@@ -38,12 +39,12 @@ header{
 }
 .intro{
     display: flex;
-    align-items: center;
     color: white;
     display: inline-block;
     text-align: center;
     float: none;
     max-width: 60%;
+    padding-left:40%;
 }
 .CTAButtonsCont{
     grid-auto-flow: row;
