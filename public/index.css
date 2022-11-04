@@ -34,7 +34,7 @@ header{
 .banner{
     background-image: url(./images/banner_image.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
     padding: 40px;
 }
 .intro{
@@ -44,7 +44,7 @@ header{
     text-align: center;
     float: none;
     max-width: 60%;
-    padding-left:40%;
+    padding-left:35%;
 }
 .CTAButtonsCont{
     grid-auto-flow: row;
