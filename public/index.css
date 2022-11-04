@@ -48,9 +48,9 @@ header{
 .CTAButtonsCont{
     grid-auto-flow: row;
     margin-top: 10px;
-    display: inline-grid;
-    grid-auto-rows: 1fr;
-    grid-gap:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .famBtn, .teachBtn, .homeschoolBtn {
     display: flex;
@@ -58,6 +58,7 @@ header{
     justify-content: space-between;
     background-color: white;
     border-color: white;
+    text-align: center;
     color:#4365d3;
     height:30px;
     width: 300px;
